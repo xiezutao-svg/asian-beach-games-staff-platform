@@ -1,0 +1,71 @@
+// 橙色主题配色方案
+$primary-orange: #FF6B35;
+$light-orange: #FF8E5B;
+$dark-orange: #E55A2B;
+$auxiliary-color: #2C3E50;
+$accent-color: #FFD93D;
+
+// 渐变色
+$orange-gradient: linear-gradient(135deg, $primary-orange, $dark-orange);
+
+// 文字颜色
+$text-primary: #2C3E50;
+$text-secondary: #7F8C8D;
+$text-light: #95A5A6;
+$text-white: #FFFFFF;
+
+// 背景色
+$bg-primary: #FFFFFF;
+$bg-secondary: #F8F9FA;
+$bg-orange-light: #FFF5EB;
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+// 字体大小
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+$font-size-xxl: 24px;
+$font-size-xxxl: 32px;
+
+// 圆角
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+$border-radius-full: 9999px;
+
+// 阴影
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+$shadow-orange: 0 4px 12px rgba(255, 107, 53, 0.3);
+
+// 过渡
+$transition-fast: 0.15s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+// 布局
+$header-height: 60px;
+$sidebar-width: 240px;
+$mobile-nav-height: 56px;
+
+// 断点
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1200px;
+
+// Z-index
+$z-index-dropdown: 100;
+$z-index-sticky: 200;
+$z-index-modal: 1000;
+$z-index-toast: 2000;
