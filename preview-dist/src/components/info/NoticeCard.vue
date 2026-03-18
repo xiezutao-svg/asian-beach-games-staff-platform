@@ -241,9 +241,11 @@ function handleDownload() {
     }
 
     .notice-footer {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: $spacing-sm;
+      {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: $spacing-sm;
+      }
     }
   }
 }

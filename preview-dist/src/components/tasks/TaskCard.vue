@@ -153,7 +153,7 @@ function handleToggleComplete() {
   text-decoration: line-through;
 }
 
-.task-card.in-progress {
+.task-card['in-progress'] {
   border-left-color: #FF6B35;
   background: linear-gradient(to right, #fff5eb, white);
 }

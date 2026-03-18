@@ -134,7 +134,7 @@ const handleLogin = async () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, $bg-secondary 0%, $bg-orange-light 100%);
+  background: linear-gradient(135deg, $bg-bg-secondary 0%, $bg-orange-light 100%);
   position: relative;
   overflow: hidden;
 }

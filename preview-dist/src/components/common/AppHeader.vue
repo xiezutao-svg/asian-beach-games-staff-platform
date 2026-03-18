@@ -64,7 +64,7 @@ import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores'
 import {
-  House as HomeIcon,
+  Home as HomeIcon,
   Document,
   Calendar,
   DataAnalysis,

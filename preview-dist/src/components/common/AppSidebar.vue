@@ -34,7 +34,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import {
-  House as HomeIcon,
+  Home as HomeIcon,
   Document,
   Calendar,
   DataAnalysis,

@@ -12,7 +12,7 @@
 
     <div v-else class="contacts-grid">
       <ContactCard
-        v-for="contact in contacts"
+        v-for="contact in contacts
         :key="contact.id"
         :contact="contact"
         @call="handleCall"
