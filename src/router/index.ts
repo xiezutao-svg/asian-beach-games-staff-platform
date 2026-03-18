@@ -58,6 +58,15 @@ const routes: RouteRecordRaw[] = [
       title: '任务打卡',
       requireAuth: false
     }
+  },
+  {
+    path: '/management',
+    name: 'Management',
+    component: () => import('@/views/Management.vue'),
+    meta: {
+      title: '系统管理',
+      requireAuth: false
+    }
   }
 ]
 

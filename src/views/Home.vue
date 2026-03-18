@@ -106,7 +106,7 @@ const modules = [
   {
     path: '/management',
     title: '系统管理',
-    description: '用户和系统设置',
+    description: '员工、排班和请假管理',
     icon: Management
   }
 ]
