@@ -32,7 +32,7 @@
             <el-avatar :size="32" :src="userStore.userInfo?.avatar">
               {{ userStore.userInfo?.name?.[0] || 'U' }}
             </el-avatar>
-            <span class="username" v-if="userStore.userInfo">{{ userStore.userInfo.name }}</span>
+            <span class="username desktop-only" v-if="userStore.userInfo">{{ userStore.userInfo.name }}</span>
             <el-icon class="dropdown-icon">
               <ArrowDown />
             </el-icon>
@@ -244,6 +244,14 @@ const handleCommand = (command: string) => {
     .desktop-nav {
       display: none;
     }
+
+    .user-section {
+      display: none;
+    }
+  }
+
+  .desktop-only {
+    display: none;
   }
 }
 </style>
